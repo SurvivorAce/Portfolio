@@ -6,6 +6,7 @@ div {
 	box-shadow: 6px 6px 3px black;
 	border-color: gray;
 	background-color: rgba(199, 199, 199, 0.4);
+    font-family: 'Shadows Into Light', cursive;
 }
 
 body{
@@ -20,7 +21,8 @@ h1{
 }
 
 .col-md-12{
-	margin-top: 60px;
+	margin-top: 50px;
+    padding-top: 40px;
 }
 
 .space{
@@ -31,4 +33,17 @@ h1{
 .resize{
 	height: 210px;
 	width: 280px;
+}
+
+.list-group-item{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text{
+    text-align: center;
+}
+
+.text1{
+    text-decoration: line-through;
+    text-align: center;
 }
