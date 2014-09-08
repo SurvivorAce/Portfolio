@@ -1,24 +1,48 @@
 body{
-	background: url("../images/background1.jpg");
+	background: url("../images/background2.jpg")no-repeat center fixed;
 }
 
 div {
-	border-style: solid;
+	border-style: dashed;
 	border-width: 5px;
+	border-radius: 25px;
 	padding: 30px;
 	border-color: green;
+	background-color: rgba(5, 245, 9, 0.4);
+	box-shadow: 6px 6px 3px black;
+}
+
+h1{
+	text-align: center;
+}
+
+.body1{
+	background: url("../images/background3.jpg")no-repeat center fixed;
 }
 
 .row{
+	border-style: solid;
 	border-color: gray;
+	background-color: rgba(199, 199, 199, 0.4);
 }
 
 .container {
-	border-color: blue;
+	border-color: navy;
+	background-color: rgba(16, 46, 163, 0.6);
+	padding: 25px;
 }
 
 .list-group-item {
-	border: 0;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	border-radius: 25px;
+	margin-top: 35px;
 }
+
+.col-md-9 {
+	height: 160px;
+}
+
+.col-md-12 {
+	margin-top: 20px;
+	height: 400px;
+}
+
